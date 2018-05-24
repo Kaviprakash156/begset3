@@ -3,4 +3,5 @@ try:
     i = float(str)
 except (ValueError, TypeError):
     print('no')
-print('yes')
+else:
+  print('yes')
